@@ -6,6 +6,9 @@ module.exports = {
   mode: 'jit',
   theme: {
     extend: {
+      fontFamily: {
+        body: ['Oswald'],
+      },
       colors: {
         'regal-blue': '#243c5a',
         'bo-range': '#ff7f00',
