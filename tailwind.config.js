@@ -12,6 +12,8 @@ module.exports = {
       colors: {
         'regal-blue': '#243c5a',
         'bo-range': '#ff7f00',
+        'background': '#87C68A',
+        'background-other': '#D6E5A0',
       },
       typography: (theme) => ({
         DEFAULT: {

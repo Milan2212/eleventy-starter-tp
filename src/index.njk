@@ -4,10 +4,11 @@ title: Welcome
 ---
 
 {%- from "macros.njk" import component -%}
-
+<body class="bg-background sm:bg-background-other">
 <div class="p-6">
     <div class="container font-body">
         {{ component("headings/title", { content: "Title Component" }) }}
     </div>
-    <p class="container text-bo-range">Bonjour Monde</p>
+    <p class="container sm:text-bo-range text-regal-blue">Bonjour Monde</p>
 </div>
+</body>
