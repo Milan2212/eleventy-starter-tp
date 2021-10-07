@@ -5,16 +5,16 @@
         <link rel="stylesheet" href="/assets/site.css">
         <script src="/assets/site.js" defer></script>
     </head>
-    <body>
-        <header role="banner" class="p-6">
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/galerie">Galerie</a></li>
+    <body class="bg-background-other">
+        <header role="banner" class="p-6 bg-background text-white">
+            <nav class="container">
+                <ul class="">
+                    <li class="mb-1"><a href="/" class="hover:text-liens text-white">Home</a></li>
+                    <li class=""><a href="/galerie" class="hover:text-liens text-white">Galerie</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="container pb-4 pt-2">
             {{ content | safe }}
         </main>
         <footer role="contentinfo">

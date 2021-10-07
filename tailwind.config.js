@@ -12,8 +12,9 @@ module.exports = {
       colors: {
         'regal-blue': '#243c5a',
         'bo-range': '#ff7f00',
-        'background': '#87C68A',
-        'background-other': '#D6E5A0',
+        'background': '#788376',
+        'background-other': '#A8B09D',
+        'liens': '#ffc434',
       },
       typography: (theme) => ({
         DEFAULT: {
